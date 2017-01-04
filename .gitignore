@@ -1,0 +1,7 @@
+*.DS_Store*
+presentations
+stats
+audios
+videos
+.idea
+scripts/deploy.sh
