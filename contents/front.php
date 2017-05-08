@@ -65,14 +65,15 @@
 		 -->
    	 <!--
    	 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=46.31816625595093%2C38.06167562359796%2C46.327242851257324%2C38.07012245902307&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small>  -->
-   	 
+   	 <!--
    	 
    	 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=46.335997581481934%2C38.048124863013605%2C46.354193687438965%2C38.064682808800846&amp;layer=mapnik&amp;marker=38.056404304171636%2C46.34509563446045" style="border: 1px solid black"></iframe><br/><small>
-   	 
+   	 -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25128.83678501227!2d46.320156788921864!3d38.067945087974216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x401a05490cf69e5f%3A0x68695a798e3634e7!2sALBORZ+Institute!5e0!3m2!1sfa!2s!4v1491626770886" width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
  <p> : مکان جلسات گروه به شرح زیر است 
 <br />
 
-تبریز - آبرسان- جنب قنادی پاک - مجتمع فنی تهران شعبه تبریز- در صورت نیاز میتوانید جهت پیداکردن مکان جلسه با شماره تلفن 09141100257 (یاشار اسمعیل دخت) تماس حاصل فرمایید . 
+تبریز، خیابان شریعتی جنوبی، نرسیده به چهارراه 17شهریور، جنب قنادی نیاگارا، ساختمان شماره 2، مجتمع آموزشی البرز - در صورت نیاز میتوانید جهت پیداکردن مکان جلسه با شماره تلفن 09141100257 (یاشار اسمعیل دخت) تماس حاصل فرمایید . ر
 </a>
 <br />
 
