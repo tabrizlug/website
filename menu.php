@@ -51,7 +51,7 @@
 	</li>
 	-->
 	<li>
-		<a href="https://github.com/tehlug">
+		<a href="https://github.com/tabrizlug">
 			گیت وب سایت
 		</a>
 	</li>
