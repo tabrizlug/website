@@ -1,5 +1,5 @@
 <?php
-	define('ENTRIES_DIRECTORY', 'contents/entries');
+	const ENTRIES_DIRECTORY = 'contents/entries';
 
 	function getEntries($type = Null, $limit = Null) {
 		$entries = array();
@@ -8,8 +8,9 @@
 
 		$count = 0;
 		while($entryFile = readdir($dir)) {
-
-			if($entryFile{0} == '.') //Dont show hidden files
+            if(str_contains($entryFile,'.'))
+                break;
+			if($entryFile[0] == '.') //Dont show hidden files
 				continue;
 
 			$entryName = str_replace('.php', Null, $entryFile);
@@ -38,7 +39,7 @@
 
 		$xpath = New DOMXPath($dom);
 
-		
+
 		$entry = New stdClass;
 		$entry->id = $id;
 		$entry->path = $path;
@@ -68,10 +69,7 @@
 	}
 
 	function getNextSession() {
-		$last = current(getEntries('Session', 1));
-
-		if($last->timestamp >= time())
-			return $last;
+	    return current(getEntries('Session', 1));
 	}
 
 	function toPersian($num) {
@@ -81,4 +79,3 @@
 	function filenameToId($fileName) {
 		return str_replace(array('contents/', '.php'), Null, $fileName);
 	}
-?>

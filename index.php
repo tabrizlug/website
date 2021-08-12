@@ -1,5 +1,5 @@
 <?php
-include_once('functions.php');
+require_once('functions.php');
 ?>
 <html>
 	<head>
@@ -29,7 +29,7 @@ include_once('functions.php');
 
 			<div id="content">
 				<?php
-				$page = (isset($_GET['page'])) ? $_GET['page'] : "front";
+                $page = (isset($_GET['page'])) ? $_GET['page'] : "front";
 
 				$page = 'contents/'.htmlentities($page).'.php';
 
